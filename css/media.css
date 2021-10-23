@@ -1,0 +1,165 @@
+@media(max-width: 414.98px){ /* iphone Screen */
+
+} /* end iphone Screen */
+@media(max-width: 575.98px){ /* extra Small Screen */
+
+    /* type courses */
+    .col-md-6 {
+        max-width: 100%;
+    } /* end type courses */
+
+    /* about us */
+    .about-us .row{
+        display: block;
+    }
+    .div-para p{
+        padding-right: 0px;
+    } /* end about us */
+
+    .boxes-goales .box {  /* goales */
+        flex-basis: 100%;
+    }/* end goales */
+
+    #servies{ /* Start Section servies */
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    #servies .side-right{
+        margin-top: 27px;
+    }
+    #servies .port-img{
+        margin-bottom: 15px;
+    }
+    .port-img .overlay {
+        width: 100%;
+    } /* end Section servies */
+    
+    .container-contact-us{ /* Section contact-us */
+        flex-direction: column;
+    }
+    .social {
+        flex-direction: row;
+    } /* end Section contact-us */
+
+    /* ################################## End Home Page ################################## */
+
+    /* Diploma page */
+    .define-diplom .div-para {
+        flex-basis: 100%;
+    }
+    .box-diploma {
+        flex-basis: 100%;
+    }
+    .login-diploma .list-target {
+        max-width: 100%;
+    }
+
+
+    #our-mesage .div-para {
+        flex-basis: 100%;
+    }
+
+} /* end extra Small Screen */
+
+@media(min-width: 576px) and (max-width: 767.98px){ /* samll screen */
+
+    /* type courses */
+    .col-md-6 {
+        max-width: 100%;
+    } /* end type courses */
+    
+    /* about us */
+    .about-us .row{
+        display: block;
+    }
+    .div-para p{
+        padding-right: 0px;
+    } /* end about us */
+
+    .boxes-goales .box {  /* goales */
+        flex-basis: 100%;
+    } 
+    .box {
+        height: 250px;
+    } /* end goales */
+
+    #servies{ /* Start Section servies */
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    #servies .side-right{
+        margin-top: 27px;
+    }
+    #servies .port-img{
+        margin-bottom: 15px;
+    }
+    .port-img .overlay {
+        width: 100%;
+    } /* end Section servies */
+
+    .container-contact-us{ /* Section contact-us */
+        flex-direction: column;
+    }
+    .social {
+        flex-direction: row;
+    } /* end Section contact-us */
+
+    /* ################################## End Home Page ################################## */
+
+    /* Diploma page */
+    .define-diplom .div-para {
+        flex-basis: 100%;
+    }
+    .box-diploma {
+        flex-basis: 100%;
+    }
+    .login-diploma .list-target {
+        max-width: 100%;
+    }
+
+} /* end samll screen */
+
+@media(min-width: 768px) and (max-width: 991.98px){ /* medium screen */
+    /* type courses */
+    .col-md-6.grid-margin.mb-4.stretch-card {
+        margin: 0 5px;
+    } /* end type courses */
+
+    /* about us */
+    .about-us .row{
+        display: block;
+    }
+    .div-para p{
+        padding-right: 0px;
+    } /* end about us */
+    .box { /*  goales */
+        height: 250px;
+    } /* end goales */
+
+    /* ################################## End Home Page ################################## */
+
+    /* Diplom Page */
+    .box-diploma h3 {
+        font-size: 14px;
+    }
+    
+} /* end medium screen */
+
+@media(min-width: 992px) and (max-width: 1999.98px){ /* large screen */
+    /* about us */
+    .div-para p{
+        font-size: 22px;
+    }
+
+    /* end about us */
+
+    
+}  /* end  screen */
+
+@media(min-width:1200px){ /* extra Large */
+    /* about us */
+    .div-para p{
+        font-size: 17px;
+    } /* end about us */
+
+}  /* end extra Large */
